@@ -1,4 +1,5 @@
-﻿do
+-- @Ernest_TM
+do
 local function run(msg, matches, callback, extra)
 local hash = 'group:'..msg.to.id
 local group_lang = redis:hget(hash,'lang')
@@ -31,3 +32,4 @@ return {
   run = run
 }
 end
+-- @Ernest_TM
