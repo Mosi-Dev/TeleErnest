@@ -1,3 +1,4 @@
+-- @Ernest_TM
 local function getindex(t,id) 
 for i,v in pairs(t) do 
 if v == id then 
@@ -36,3 +37,4 @@ patterns = {
 }, 
 run = run 
 }
+-- @Ernest_TM
