@@ -1,5 +1,4 @@
-
-
+-- @Ernest_TM
 local function check_member_super_deleted(cb_extra, success, result)
 local receiver = cb_extra.receiver
  local msg = cb_extra.msg
@@ -27,4 +26,4 @@ channel_get_users(receiver, check_member_super_deleted,{receiver = receiver, msg
  },
 run = run,
 }
-
+-- @Ernest_TM
