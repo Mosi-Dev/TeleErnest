@@ -1,4 +1,4 @@
-
+-- @Ernest_TM
 local function addword(msg, name)
     local hash = 'chat:'..msg.to.id..':badword'
     redis:hset(hash, name, 'newword')
@@ -109,4 +109,4 @@ return {
   },
   run = run
 }
-
+-- @Ernest_TM
