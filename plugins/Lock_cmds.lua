@@ -1,4 +1,4 @@
-
+-- @Ernest_TM
 kicktable = {}
 local function run(msg, matches)
 if msg.to.type == 'channel' then
@@ -22,9 +22,6 @@ if msg.to.type == 'channel' then
 end
  end
 return {
- usage = {
-  "lock tag: If User Send A Message With # , @ Then Bot Removed User.",
-  "unlock tag: No Action Execute If User Send Mesage With # , @",
   },
   patterns = {
     "(/(.+))",
@@ -34,3 +31,4 @@ return {
  },
   run = run
 }
+-- @Ernest_TM
