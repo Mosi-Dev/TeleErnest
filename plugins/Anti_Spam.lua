@@ -1,4 +1,4 @@
---An empty table for solving multiple kicking problem(thanks to @topkecleon )
+-- @Ernest_TM
 kicktable = {}
 
 do
@@ -167,3 +167,4 @@ return {
 }
 
 end
+-- @Ernest_TM
