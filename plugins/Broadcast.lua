@@ -1,3 +1,4 @@
+-- @Ernest_TM
 local function run(msg, matches)
 	if matches[1] == 'bc' and is_admin1(msg) then
 		local response = matches[3]
@@ -31,3 +32,4 @@ return {
   },
   run = run
 }
+-- @Ernest_TM
