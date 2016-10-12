@@ -1,3 +1,4 @@
+-- @Ernest_TM
 do
 -- Will leave the group if be added
 local function run(msg, matches)
@@ -21,3 +22,4 @@ return {
   run = run
 }
 end
+-- @Ernest_TM
