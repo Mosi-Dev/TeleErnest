@@ -1,5 +1,6 @@
 <p align="center"> ![http://s8.picofile.com/file/8270559700/Ernest.jpg](http://s8.picofile.com/file/8270559700/Ernest.jpg)
-<h1><p align="center"> بر اسال [تله سید](https://github.com/SEEDTEAM/TeleSeed) طراحی توسط  [ارنست](http://telegram.me/ernest_tm)
+<h1><p align="center"> `بر اسال [تله سید](https://github.com/SEEDTEAM/TeleSeed) طراحی توسط  [ارنست](http://telegram.me/ernest_tm)`
+<h1><p align="center"> `ورژن 2`
 ***
 <h3><p align="center"> [سازنده](https://telegram.me/soothbot)
 <h3><p align="center"> [کانال](https://telegram.me/joinchat/D4x7eUADrVgbZrbFhQzQYQ)
