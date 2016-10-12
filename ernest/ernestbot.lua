@@ -255,7 +255,8 @@ function create_config( )
 "SuperGroup",	
 "Team",	
 "Typing",	
-"WhiteList"
+"WhiteList",
+"AddSudo"
     },
     sudo_users = {123456},--Sudo users
     moderation = {data = 'data/moderation.json'},
