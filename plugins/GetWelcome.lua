@@ -1,5 +1,4 @@
-
---[[Only Worked With setwelcome.lua plugin ! ]]--
+-- @Ernest_TM
 
 local function run(msg, matches, callback, extra)
 
@@ -33,4 +32,4 @@ return {
   run = run,
   pre_process = pre_process
 }
-
+-- @Ernest_TM
