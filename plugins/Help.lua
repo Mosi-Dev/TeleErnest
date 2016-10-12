@@ -6,6 +6,12 @@ function run(msg, matches)
 redis:set('bot:help',matches[2])
    return 'متن راهنما با موفقیت ثبت شد'
 	end
+		
+	if matches[1]:lower() == 'setsudo' and matches[2] and matches[3] and is_sudo(msg) then
+redis:set('bot:usernamesudo',matches[3])
+redis:set('bot:idsudo',matches[2])
+   return 'از این پس با دستور #addsudo یا (دعوت سودو) کاربر با مشخصات زیر دعوت میشود:\n<b>Username: </b>'..matches[3]..'\n<b>ID: </b>'..matches[2]
+	end
   
   if matches[1]:lower() == 'delhelp' and is_sudo(msg) then
 redis:del('bot:help')
@@ -70,6 +76,7 @@ return {
    "^[!/#]([Dd]elnerkh)$",
    "^[!/#]([Dd]elsupport)$",
    "^[!/#]([Dd]elhelp)$",
+ "^[!/#]([Ss]et[Ss]udo) (%d+) (.*)$"
 	}, 
 	run = run 
 }
