@@ -1,3 +1,4 @@
+-- @Ernest_TM
 local function run(msg, matches, callback, extra)
 
 local data = load_data(_config.moderation.data)
@@ -53,3 +54,4 @@ return {
   },
   run = run
 }
+-- @Ernest_TM
