@@ -6,30 +6,32 @@
 <h3><p align="center"> [کانال](https://telegram.me/joinchat/D4x7eUADrVgbZrbFhQzQYQ)
 <h3><p align="center"> [پشتیبانی](https://telegram.me/joinchat/D4x7eUADrVgbZrbFhQzQYQ)
 ***
-<h2><p align="right"> قفل ها</h4>
-<p align="right">  قفل لینک 
-<p align="right">  قفل مخاطب
-<p align="right">  قفل فلود
-<p align="right">  قفل اسپم
-<p align="right">  قفل چت فارسی
-<p align="right">  قفل چت انگلیسی
-<p align="right">  قفل ممبر
-<p align="right">  قفل نمایش پیام ورود و خروج
-<p align="right">  قفل کاراکتر راست به چپ
-<p align="right">  قفل استیکر
-<p align="right">  قفل تگ
-<p align="right">  قفل فوروارد
-<p align="right">  قفل جوین با لینک
-<p align="right">  قفل یوزرنیم
-<p align="right">  قفل مدیا
-<p align="right">  قفل فحاشی
-<p align="right">  قفل ریجوین
-<p align="right">  قفل ربات های مخرب
-<p align="right">  قفل تبلیغ دکمه ای
-<p align="right">  قفل دستورات
-<p align="right">  قفل سختگیرانه
-<p align="right">  عمومی
-<p align="right">  و ...
+### قفل ها
+|  توضیحات |
+|:--------|
+|  قفل لینک |
+|  قفل مخاطب |
+|  قفل فلود |
+|  قفل اسپم |
+|  قفل چت فارسی |
+|  قفل چت انگلیسی |
+|  قفل ممبر |
+|  قفل نمایش پیام ورود و خروج |
+|  قفل کاراکتر راست به چپ |
+|  قفل استیکر|
+|  قفل تگ|
+|  قفل فوروارد|
+|  قفل جوین با لینک|
+|  قفل یوزرنیم|
+|  قفل مدیا|
+|  قفل فحاشی|
+|  قفل ریجوین|
+|  قفل ربات های مخرب|
+|  قفل تبلیغ دکمه ای|
+|  قفل دستورات|
+|  قفل سختگیرانه|
+|  عمومی|
+|  و ...|
 *** 
 ## تنظیم زبان سوپرگروه
 | دستور | توضیح | 
