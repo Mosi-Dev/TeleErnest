@@ -1,3 +1,4 @@
+-- @Ernest_TM
 do
 -- Returns true if is not empty
 local function has_usage_data(dict)
@@ -69,4 +70,4 @@ return {
 }
 
 end
-
+-- @Ernest_TM
