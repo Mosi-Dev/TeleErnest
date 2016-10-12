@@ -1,3 +1,4 @@
+-- @Ernest_TM
 function run(msg, matches)
 local hash = 'bot:typing'
 if is_sudo(msg) then
@@ -17,3 +18,4 @@ patterns = {
 },
 run = run
 }
+-- @Ernest_TM
