@@ -1,5 +1,4 @@
--- data saved to moderation.json
--- check moderation plugin
+-- @Ernest_TM
 do
 
 local function create_group(msg)
@@ -1078,3 +1077,4 @@ return {
   run = run
 }
 end
+-- @Ernest_TM
