@@ -1,3 +1,4 @@
+-- @Ernest_TM
 antiarabic = {}-- An empty table for solving multiple kicking problem
 
 do
@@ -48,3 +49,4 @@ return {
 }
 
 end
+-- @Ernest_TM
