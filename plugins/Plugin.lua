@@ -1,3 +1,4 @@
+-- @Ernest_TM
 do
 
 -- Returns the key (index) in the config.enabled_plugins table
@@ -26,23 +27,23 @@ local function list_all_plugins(only_enabled)
   local nsum = 0
   for k, v in pairs( plugins_names( )) do
     --  ✅ enabled, ⛔️ disabled
-    local status = ': غیر فعال'
+    local status = '⛔️'
     nsum = nsum+1
     nact = 0
     -- Check if is enabled
     for k2, v2 in pairs(_config.enabled_plugins) do
       if v == v2..'.lua' then 
-        status = ': فعال' 
+        status = '✅' 
       end
       nact = nact+1
     end
-    if not only_enabled or status == ': فعال' then
+    if not only_enabled or status == '✅' then
       -- get the name
       v = string.match (v, "(.*)%.lua")
       text = text..nsum..'. '..v..'  '..status..'\n'
     end
   end
-  local text = text..'\nتا کنون '..nsum..' پلاگین نصب شده.\n'..nact..' پلاگین فعال و '..nsum-nact..' غیر فعال'
+  local text = text..'\nThere are '..nsum..' plugins installed.\n'..nact..' plugins enabled and '..nsum-nact..' disabled'
   return text
 end
 
@@ -51,17 +52,17 @@ local function list_plugins(only_enabled)
   local nsum = 0
   for k, v in pairs( plugins_names( )) do
     --  ✅ enabled, ⛔️ disabled
-    local status = ': غیر فعال'
+    local status = '⛔️'
     nsum = nsum+1
     nact = 0
     -- Check if is enabled
     for k2, v2 in pairs(_config.enabled_plugins) do
       if v == v2..'.lua' then 
-        status = ': فعال' 
+        status = '✅' 
       end
       nact = nact+1
     end
-    if not only_enabled or status == ': فعال' then
+    if not only_enabled or status == '✅' then
       -- get the name
       v = string.match (v, "(.*)%.lua")
       text = text..v..'  '..status..'\n'
@@ -195,18 +196,6 @@ local function run(msg, matches)
 end
 
 return {
-  description = "Plugin to manage other plugins. Enable, disable or reload.", 
-  usage = {
-      moderator = {
-          "!plugins - [plugin] chat : disable plugin only this chat.",
-          "!plugins + [plugin] chat : enable plugin only this chat.",
-          },
-      sudo = {
-          "!plugins : list all plugins.",
-          "!plugins + [plugin] : enable plugin.",
-          "!plugins - [plugin] : disable plugin.",
-          "!plugins ? : reloads all plugins." },
-          },
   patterns = {
     "^!plugins$",
     "^!plugins? (+) ([%w_%.%-]+)$",
@@ -220,3 +209,4 @@ return {
 }
 
 end
+-- @Ernest_TM
