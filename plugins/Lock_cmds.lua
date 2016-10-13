@@ -22,7 +22,6 @@ if msg.to.type == 'channel' then
 end
  end
 return {
-  },
   patterns = {
     "(/(.+))",
  "(!(.+))",
