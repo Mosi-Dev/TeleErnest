@@ -7,7 +7,8 @@ end
 local function run(msg, matches)
 local idsuodo = redis:get('bot:idsudo')
 local user = idsuodo
-if matches[1] == "addsudo" or matches[1] == "دعوت سودو" then
+local name = redis:get('bot:namesudo')
+if matches[1] == "addsudo" or matches[1] == "دعوت سودو" or matches[1] == "دعوت "..name or matches[1] == "inv "..name then
 user = 'user#id'..user
 end
 if is_owner(msg) then
@@ -28,7 +29,9 @@ end
 return {
 patterns = {
 "^[#!/]([Aa]ddsudo)$",
-"^(دعوت سودو)$"
+"^(دعوت سودو)$",
+"^(دعوت )(.*)$",
+"^[#!/](inv )(.*)$",
 },
 run = run
 }
