@@ -2370,7 +2370,11 @@ local function run(msg, matches)
 				return
 			end
 			if is_super_group(msg) then
-				return reply_msg(msg.id, '🔘گروه شما به لیست ربات Ernest.Bot اضافه شده🔘', ok_cb, false)
+			local team = redis:get('bot:team')
+			if not team then
+			team = Ernest
+			end
+				return reply_msg(msg.id, '🔘گروه شما به لیست ربات '..team..' اضافه شده🔘', ok_cb, false)
 			end
 			print("SuperGroup "..msg.to.print_name.."("..msg.to.id..") added")
 			savelog(msg.to.id, name_log.." ["..msg.from.id.."] added SuperGroup")
