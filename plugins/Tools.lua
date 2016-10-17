@@ -20,7 +20,7 @@ redis:set('bot:channel',matches[3])
 end
 		
 if matches[1]:lower() == 'msgid' and msg.reply_id and is_momod(msg) then
-   reply_msg(msg.reply_id,'آیدی این پیام\n'..msg.reply_id,ok_cb,false)
+   reply_msg(msg.reply_id,'آیدی این پیام:\n<b>'..msg.reply_id..'</b>',ok_cb,false)
 	end		
 		
   if matches[1]:lower() == 'delteam' and is_sudo(msg) then
