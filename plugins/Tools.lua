@@ -7,7 +7,22 @@ redis:set('bot:team',matches[2])
 redis:set('bot:channel',matches[3])
    return reply_msg(msg['id'],"تیم تنظیم شد\nنام تیم:<b> "..matches[2].."</b>\nلینک کانال: "..matches[3],ok_cb,false)
 	end
-  
+		
+  if matches[1]:lower() == 'linkpv' and msg.reply_id and is_momod(msg) then
+	local data = load_data(_config.moderation.data)
+      local group_link = data[tostring(msg.to.id)]['settings']['set_link']
+       if not group_link then 
+        return "لطفا لینک جدیدی تنظیم کنید:("
+       end
+         local text = "لینک گروه:\n"..group_link
+          send_large_msg('user#id'..msg.from.id, text, ok_cb, false)
+           return "لینک به پی وی شما ارسال شد"
+end
+		
+if matches[1]:lower() == 'msgid' and msg.reply_id and is_momod(msg) then
+   reply_msg(msg.reply_id,'آیدی این پیام\n'..msg.reply_id,ok_cb,false)
+	end		
+		
   if matches[1]:lower() == 'delteam' and is_sudo(msg) then
 redis:del('bot:team')
 redis:del('bot:channel')
@@ -162,7 +177,9 @@ end
 	"^[!/#]([Dd]el[Tt]eam)$",
 	"^[!/#]([Tt]eam)$",
     "^[#!/](bc) (%d+) (.*)$",
-"^[#!/](bcfwd) (%d+) (.*)$"
+"^[#!/](bcfwd) (%d+) (.*)$",
+"^[#!/]([Mm]sgid)$",
+"^[#!/]([Ll]inkpv)$"
 	}, 
 	run = run 
 }
