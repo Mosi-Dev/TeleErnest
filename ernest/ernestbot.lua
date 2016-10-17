@@ -253,7 +253,8 @@ function create_config( )
 "Typing",
 "Tools",
 "WhiteList",
-"AddSudo"
+"AddSudo",
+"KickMe"
     },
     sudo_users = {123456},--Sudo users
     moderation = {data = 'data/moderation.json'},
