@@ -2,9 +2,30 @@
 <h1><p align="center"> بر اسال [تله سید](https://github.com/SEEDTEAM/TeleSeed) طراحی توسط  [ارنست](http://telegram.me/ernest_tm)
 <h1><p align="center"> `ورژن 2`
 ***
-<h3><p align="center"> [سازنده](https://telegram.me/soothbot)
-<h3><p align="center"> [کانال](https://telegram.me/joinchat/D4x7eUADrVgbZrbFhQzQYQ)
-<h3><p align="center"> [پشتیبانی](https://telegram.me/joinchat/D4x7eUADrVgbZrbFhQzQYQ)
+<h3><p align="center"> [سازنده](https://telegram.me/mosi_dev)
+<h3><p align="center"> [کانال](https://telegram.me/mosi_dev)
+***
+### قابلیت ها
+|  توضیحات |
+|:--------|
+|  دعوت سودو با چند دستور |
+|  اضافه/حذف کلمات ممنوعه |
+|  پاک کردن اعضای دیلیت اکانت کرده |
+|  تاریخ انقضا هر گپ |
+| ذخیره/گرفتن متن |
+|  اینفو با رنک |
+|  خروج با تایید |
+|  نمایش پترن پلاگین ها |
+|  گرفتن مسیج ایدی/پلاگین در هر جا |
+|  پاک کردن پیام های سوپرگروه |
+| تنظیم تیم و کانال برای جاهایی که استفاده شده|
+|  تنظیم خوش امدگویی|
+|  تنظیم تایپینگ ربات|
+|  تنظیم زبان سوپرگروه |
+|  تنظیم سودو برای دعوت به گروه/نظر در تلگرام|
+|  لینک در پی وی|
+|  فرستادن متن فوروارد شده به گروه|
+|  و ...|
 ***
 ### قفل ها
 |  توضیحات |
@@ -42,29 +63,20 @@
 ## تنظیم متن راهنما
 | دستور | توضیح | 
 |:--------|:----------|:------------|
-| <h4>[!#/]sethelp `(text)` | تنظیم متن راهنما به صورت متنی از طرف ربات |
-| <h4>[!#/]sethelpfwd `(msg ID)` | تنظیم متن راهنما به صورت متن فوروارد شده |
-| <h4>[!#/]delhelp | حذف متن راهنما به صورت متنی از طرف ربات |
-| <h4>[!#/]delhelpfwd | حذف متن راهنما به صورت فوروارد |
-<h3>راهنمای کلی این بخش در [کانال](https://telegram.me/joinchat/D4x7eUADrVgbZrbFhQzQYQ)
+| <h4>[!#/]sethelp `(text)` | تنظیم متن راهنما به صورت فوروارد شده |
+| <h4>[!#/]delhelp | حذف متن راهنما |
 ***
 ## تنظیم متن پشتیبانی
 | دستور | توضیح | 
 |:--------|:----------|:------------|
-| <h4>[!#/]setsupport `(text)` | تنظیم متن پشتیبانی به صورت متنی از طرف ربات |
-| <h4>[!#/]setsupportfwd `(msg ID)` | تنظیم متن پشتیبانی به صورت متن فوروارد شده |
-| <h4>[!#/]delsupport | حذف متن پشتیبانی به صورت متنی از طرف ربات |
-| <h4>[!#/]delsupportfwd | حذف متن پشتیبانی به صورت فوروارد |
-<h3>راهنمای کلی این بخش در [کانال](https://telegram.me/joinchat/D4x7eUADrVgbZrbFhQzQYQ)
+| <h4>[!#/]setsupport `(text)` | تنظیم متن پشتیبانی به صورت متن فوروارد شده |
+| <h4>[!#/]delsupport | حذف متن پشتیبانی |
 ***
 ## تنظیم متن نرخ ربات
 | دستور | توضیح | 
 |:--------|:----------|:------------|
-| <h4>[!#/]setnerkh `(text)` | تنظیم متن نرخ به صورت متنی از طرف ربات |
-| <h4>[!#/]setnerkhfwd `(msg ID)` | تنظیم متن نرخ به صورت متن فوروارد شده |
-| <h4>[!#/]delnerkh | حذف متن نرخ به صورت متنی از طرف ربات |
-| <h4>[!#/]delnerkhfwd | حذف متن نرخ به صورت فوروارد |
-<h3>راهنمای کلی این بخش در [کانال](https://telegram.me/joinchat/D4x7eUADrVgbZrbFhQzQYQ)
+| <h4>[!#/]setnerkh `(text)` | تنظیم متن نرخ به صورت متن فوروارد شده |
+| <h4>[!#/]delnerkh | حذف متن نرخ |
 ***
 ## تنظیم تیم و لینک کانال شما
 | دستور | توضیح | 
@@ -122,6 +134,5 @@ chmod +x start.sh
 tmux new-session -s script "bash steady.sh -t"
 ```
 ***
-<h3><p align="center"> [سازنده](https://telegram.me/soothbot)
-<h3><p align="center"> [کانال](https://telegram.me/joinchat/D4x7eUADrVgbZrbFhQzQYQ)
-<h3><p align="center"> [پشتیبانی](https://telegram.me/joinchat/D4x7eUADrVgbZrbFhQzQYQ)
+<h3><p align="center"> [سازنده](https://telegram.me/mosi_dev)
+<h3><p align="center"> [کانال](https://telegram.me/mosi_dev)
