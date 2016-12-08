@@ -1,5 +1,5 @@
 <p align="center"> ![http://s8.picofile.com/file/8270559700/Ernest.jpg](http://s8.picofile.com/file/8270559700/Ernest.jpg)
-<h1><p align="center"> بر اسال [تله سید](https://github.com/SEEDTEAM/TeleSeed) طراحی توسط  [Mosi_Dev](http://telegram.me/mosi_dev)
+<h1><p align="center"> بر اسال [تله سید](https://github.com/SEEDTEAM/TeleSeed) طراحی توسط  [مصی](http://telegram.me/mosi_dev)
 <h1><p align="center"> `ورژن 2`
 ***
 <h3><p align="center"> [سازنده](https://telegram.me/mosi_dev)
